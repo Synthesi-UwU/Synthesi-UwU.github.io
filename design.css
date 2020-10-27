@@ -1,0 +1,61 @@
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans&family=Oswald:wght@300&display=swap");
+.sidebar {
+  position: fixed;
+  height: 100%;
+  width: 100px;
+  background-color: rgb(32, 34, 37);
+  left: 0;
+  top: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+body {
+  background-color: rgb(54, 57, 63);
+  font-family: "Open Sans", sans-serif;
+}
+
+.item {
+  width: 50px;
+  height: 50px;
+  background-color: white;
+  margin-top: 40%;
+  margin-left: 25%;
+  border-radius: 100%;
+  transition-delay: 0ms;
+}
+
+.item.feline {
+  background-image: url("img/feline.png");
+  background-size: cover;
+}
+.item:hover {
+  border-radius: 15px;
+  /*background-color: black;*/
+}
+
+.content {
+  left: 360px;
+  height: 95%;
+  width: calc(100% - calc(360px * 2));
+  top: 2.5%;
+  position: absolute;
+  text-align: center;
+  color: white;
+}
+h1 {
+  font-family: "Oswald", sans-serif;
+}
+h3 {
+  font-family: "Oswald", sans-serif;
+}
+h2 {
+  font-family: "Oswald", sans-serif;
+  text-align: left;
+}
+.content p {
+  text-align: left;
+}
+.content a {
+  text-align: left;
+}
